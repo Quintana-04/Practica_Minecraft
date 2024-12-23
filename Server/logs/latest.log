@@ -1,0 +1,27 @@
+[12:15:48] [Server thread/INFO]: Starting minecraft server version 1.12
+[12:15:48] [Server thread/INFO]: Loading properties
+[12:15:48] [Server thread/INFO]: Default game type: CREATIVE
+[12:15:48] [Server thread/INFO]: Generating keypair
+[12:15:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:15:48] [Server thread/INFO]: Using default channel type
+[12:15:49] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[12:15:49] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[12:15:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:15:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:15:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:15:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:15:49] [Server thread/INFO]: Preparing level "world"
+[12:15:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5739449911029372227)
+[12:15:50] [Server thread/INFO]: Preparing spawn area: 18%
+[12:15:51] [Server thread/INFO]: Preparing spawn area: 43%
+[12:15:52] [Server thread/INFO]: Preparing spawn area: 80%
+[12:15:53] [Server thread/INFO]: Preparing spawn area: 96%
+[12:15:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5739449911029372227)
+[12:15:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5739449911029372227)
+[12:15:54] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[12:15:54] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[12:15:54] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[12:15:54] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[12:15:54] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[12:15:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:15:54] [Server thread/INFO]: Done (5,399s)! For help, type "help" or "?"
