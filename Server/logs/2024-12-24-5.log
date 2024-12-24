@@ -1,0 +1,10 @@
+[17:06:37] [Server thread/INFO]: Starting minecraft server version 1.12
+[17:06:37] [Server thread/INFO]: Loading properties
+[17:06:37] [Server thread/INFO]: Default game type: CREATIVE
+[17:06:37] [Server thread/INFO]: Generating keypair
+[17:06:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:06:38] [Server thread/INFO]: Using default channel type
+[17:06:38] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[17:06:38] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[17:06:38] [Server thread/WARN]: Perhaps a server is already running on that port?
+[17:06:38] [Server thread/INFO]: Stopping server

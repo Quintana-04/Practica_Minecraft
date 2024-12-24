@@ -1,0 +1,43 @@
+[17:05:34] [Server thread/INFO]: Starting minecraft server version 1.12
+[17:05:34] [Server thread/INFO]: Loading properties
+[17:05:34] [Server thread/INFO]: Default game type: CREATIVE
+[17:05:34] [Server thread/INFO]: Generating keypair
+[17:05:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:05:34] [Server thread/INFO]: Using default channel type
+[17:05:35] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:05:35] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[17:05:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:05:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:05:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:05:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:05:35] [Server thread/INFO]: Preparing level "world"
+[17:05:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6461835740489444948)
+[17:05:36] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6461835740489444948)
+[17:05:36] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6461835740489444948)
+[17:05:37] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[17:05:37] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[17:05:37] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[17:05:37] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[17:05:37] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[17:05:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:05:37] [Server thread/INFO]: Done (1,964s)! For help, type "help" or "?"
+[17:05:40] [Server thread/INFO]: Paldag16[/127.0.0.1:52887] logged in with entity id 26 at ([world]63.85138504483251, 65.0, 279.49448745728495)
+[17:06:24] [Server thread/INFO]: Paldag16 lost connection: Disconnected
+[17:06:24] [Server thread/INFO]: Paldag16 left the game
+[17:06:30] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[17:06:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52921.
+[17:06:30] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[17:06:30] [Server thread/WARN]: [RaspberryJuice] Error occured handling command
+[17:06:30] [Server thread/WARN]: java.lang.NullPointerException
+[17:06:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleCommand(RemoteSession.java:253)
+[17:06:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:133)
+[17:06:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113)
+[17:06:30] [Server thread/WARN]: 	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197)
+[17:06:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53)
+[17:06:30] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352)
+[17:06:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689)
+[17:06:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366)
+[17:06:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650)
+[17:06:30] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554)
+[17:06:30] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[17:06:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52921.

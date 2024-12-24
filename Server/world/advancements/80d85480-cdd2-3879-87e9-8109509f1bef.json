@@ -2,8 +2,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "plains": "2024-12-23 12:12:09 +0100",
-      "savanna": "2024-12-23 12:57:28 +0100"
+      "savanna": "2024-12-23 12:57:28 +0100",
+      "roofed_forest": "2024-12-24 17:35:12 +0100",
+      "river": "2024-12-24 17:35:10 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2024-12-24 17:42:01 +0100"
+    },
+    "done": true
   }
 }
