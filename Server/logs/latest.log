@@ -1,267 +1,60 @@
-[17:07:11] [Server thread/INFO]: Starting minecraft server version 1.12
-[17:07:11] [Server thread/INFO]: Loading properties
-[17:07:11] [Server thread/INFO]: Default game type: CREATIVE
-[17:07:11] [Server thread/INFO]: Generating keypair
-[17:07:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:07:11] [Server thread/INFO]: Using default channel type
-[17:07:12] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[17:07:12] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[17:07:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:07:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:07:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:07:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:07:12] [Server thread/INFO]: Preparing level "world"
-[17:07:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6461835740489444948)
-[17:07:13] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6461835740489444948)
-[17:07:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6461835740489444948)
-[17:07:14] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[17:07:14] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[17:07:14] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[17:07:14] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[17:07:14] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[17:07:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:07:14] [Server thread/INFO]: Done (1,853s)! For help, type "help" or "?"
-[17:07:16] [Server thread/INFO]: Paldag16[/127.0.0.1:53196] logged in with entity id 26 at ([world]47.26569725342078, 64.0, 280.95702030844404)
-[17:07:22] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[17:07:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53202.
-[17:07:22] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[17:07:22] [Server thread/INFO]: ExplosiveBot: TNT colocada en (48, 64, 280)![m
-[17:07:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53202.
-[17:08:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53257.
-[17:08:39] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[17:08:39] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[17:08:39] [Server thread/INFO]: ExplosiveBot: TNT activada en (48, 64, 280)![m
-[17:08:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53257.
-[17:09:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53291.
-[17:09:30] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[17:09:30] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[17:09:30] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: [m
-[17:09:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53291.
-[17:17:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53562.
-[17:17:16] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[17:17:16] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[17:17:16] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:17:23] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:17:23] [Server thread/INFO]: ExplosiveBot: Dejando de escuchar comandos del chat.[m
-[17:17:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53562.
-[17:23:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53801.
-[17:23:32] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[17:23:32] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[17:23:32] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:24:26] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:24:26] [Server thread/INFO]: ExplosiveBot: TNT colocada en (48, 64, 282)![m
-[17:24:34] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:24:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53801.
-[17:24:49] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:25:28] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:25:34] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:25:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53879.
-[17:25:39] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[17:25:39] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[17:25:39] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:25:47] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:25:47] [Server thread/INFO]: ExplosiveBot: TNT colocada en (48, 64, 283)![m
-[17:25:51] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:25:51] [Server thread/INFO]: ExplosiveBot: TNT colocada en (48, 64, 284)![m
-[17:25:54] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:25:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53879.
-[17:25:58] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:26:00] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:26:03] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:26:06] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:26:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53900.
-[17:26:14] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[17:26:14] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[17:26:14] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:26:20] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:26:20] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: [m
-[17:28:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53969.
-[17:28:02] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[17:28:02] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[17:28:03] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:28:12] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:28:12] [Server thread/INFO]: ExplosiveBot: TNT colocada en (47, 64, 285)![m
-[17:28:17] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:28:18] [Server thread/INFO]: [Bot]: TNT colocada en (47, 64, 286). ­Detonando![m
-[17:28:21] [Server thread/INFO]: ExplosiveBot: ­BOOM! TNT detonada.[m
-[17:28:31] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:28:31] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: [m
-[17:30:48] [Thread-19/INFO]: [RaspberryJuice] Connection reset
-[17:30:48] [Thread-21/INFO]: [RaspberryJuice] Connection reset
-[17:30:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53900.
-[17:30:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53969.
-[17:31:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54115.
-[17:31:12] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[17:31:12] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[17:31:12] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:31:22] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:31:22] [Server thread/INFO]: [Bot]: TNT colocada en (49, 64, 281). ­Activando![m
-[17:31:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54115.
-[17:31:38] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:31:43] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:32:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54153.
-[17:32:14] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
-[17:32:14] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
-[17:32:14] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:32:25] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:32:25] [Server thread/INFO]: ExplosiveBot: TNT activada en (48, 64, 281)![m
-[17:32:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54170.
-[17:32:38] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[17:32:38] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[17:32:38] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:32:47] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:32:47] [Server thread/INFO]: ExplosiveBot: TNT colocada en (48, 64, 281)![m
-[17:32:50] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:32:50] [Server thread/INFO]: ExplosiveBot: TNT activada en (48, 64, 281)![m
-[17:33:24] [Thread-25/INFO]: [RaspberryJuice] Connection reset
-[17:33:24] [Thread-27/INFO]: [RaspberryJuice] Connection reset
-[17:33:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54153.
-[17:33:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54170.
-[17:33:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54221.
-[17:33:32] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
-[17:33:32] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
-[17:33:32] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:33:40] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:33:40] [Server thread/INFO]: ExplosiveBot: TNT colocada en (55, 64, 264)![m
-[17:33:47] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:33:47] [Server thread/INFO]: ExplosiveBot: TNT activada en (55, 64, 264)![m
-[17:33:56] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:33:57] [Server thread/INFO]: ExplosiveBot: TNT activada en (67, 64, 263)![m
-[17:34:05] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:34:05] [Server thread/INFO]: ExplosiveBot: TNT activada en (64, 64, 260)![m
-[17:34:18] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:34:18] [Server thread/INFO]: ExplosiveBot: TNT colocada en (62, 64, 261)![m
-[17:34:26] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:34:26] [Server thread/INFO]: ExplosiveBot: TNT activada en (59, 64, 261)![m
-[17:34:33] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:34:33] [Server thread/INFO]: ExplosiveBot: TNT activada en (59, 64, 261)![m
-[17:34:38] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:34:38] [Server thread/INFO]: ExplosiveBot: TNT activada en (60, 64, 263)![m
-[17:34:43] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:34:43] [Server thread/INFO]: ExplosiveBot: TNT activada en (62, 64, 261)![m
-[17:37:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54381.
-[17:37:33] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
-[17:37:33] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
-[17:37:33] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:37:35] [Server thread/INFO]: [Bot]: Deteniendo el script.[m
-[17:37:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54381.
-[17:37:52] [Thread-29/INFO]: [RaspberryJuice] Connection reset
-[17:37:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54221.
-[17:37:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54398.
-[17:37:57] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
-[17:37:57] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
-[17:37:57] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:38:01] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:38:02] [Server thread/INFO]: ExplosiveBot: TNT colocada en (22, 75, 141)![m
-[17:38:06] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:38:06] [Server thread/INFO]: ExplosiveBot: TNT colocada en (23, 75, 142)![m
-[17:38:11] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:38:12] [Server thread/INFO]: ExplosiveBot: TNT colocada en (22, 76, 144)![m
-[17:38:49] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:38:49] [Server thread/INFO]: ExplosiveBot: TNT colocada en (23, 76, 145)![m
-[17:38:54] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:38:54] [Server thread/INFO]: ExplosiveBot: TNT colocada en (22, 76, 144)![m
-[17:40:07] [Server thread/INFO]: [Bot]: Deteniendo el script.[m
-[17:40:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54398.
-[17:40:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54491.
-[17:40:09] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
-[17:40:09] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
-[17:40:09] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:40:18] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:40:18] [Server thread/INFO]: ExplosiveBot: TNT colocada en (19, 75, 143)![m
-[17:40:22] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:40:22] [Server thread/INFO]: ExplosiveBot: TNT colocada en (20, 75, 142)![m
-[17:40:25] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:40:25] [Server thread/INFO]: ExplosiveBot: TNT colocada en (21, 75, 143)![m
-[17:40:28] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:40:28] [Server thread/INFO]: ExplosiveBot: TNT colocada en (20, 75, 144)![m
-[17:40:33] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:40:33] [Server thread/INFO]: ExplosiveBot: TNT activada en (19, 75, 143)![m
-[17:40:36] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:40:36] [Server thread/INFO]: ExplosiveBot: TNT activada en (20, 75, 142)![m
-[17:40:50] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:40:50] [Server thread/INFO]: ExplosiveBot: TNT activada en (18, 75, 157)![m
-[17:41:01] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:41:01] [Server thread/INFO]: ExplosiveBot: TNT activada en (-2, 72, 154)![m
-[17:41:18] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:41:18] [Server thread/INFO]: ExplosiveBot: TNT colocada en (-2, 72, 154)![m
-[17:41:21] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:41:21] [Server thread/INFO]: ExplosiveBot: TNT activada en (-2, 72, 154)![m
-[17:42:07] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:42:08] [Server thread/INFO]: ExplosiveBot: TNT activada en (14, 73, 144)![m
-[17:43:12] [Server thread/INFO]: [Bot]: Deteniendo el script.[m
-[17:43:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54491.
-[17:43:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54600.
-[17:43:15] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
-[17:43:15] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
-[17:43:15] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:43:25] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:43:25] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: [m
-[17:44:55] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:44:55] [Server thread/INFO]: ExplosiveBot: Dejando de escuchar comandos del chat.[m
-[17:44:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54600.
-[17:44:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54661.
-[17:44:58] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
-[17:44:58] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
-[17:44:58] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:45:05] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:45:05] [Server thread/INFO]: ExplosiveBot: No hay acciones disponibles.[m
-[17:45:09] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:45:09] [Server thread/INFO]: ExplosiveBot: No hay acciones disponibles.[m
-[17:47:09] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:47:25] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:47:31] [Thread-39/INFO]: [RaspberryJuice] Connection reset
-[17:47:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54661.
-[17:47:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54767.
-[17:47:32] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
-[17:47:32] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
-[17:47:32] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:47:40] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:47:40] [Server thread/INFO]: ExplosiveBot: No hay acciones disponibles.[m
-[17:47:43] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:47:44] [Server thread/INFO]: ExplosiveBot: TNT colocada en (13, 74, 141)![m
-[17:47:46] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:47:46] [Server thread/INFO]: ExplosiveBot: No hay acciones disponibles.[m
-[17:49:43] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:49:49] [Thread-41/INFO]: [RaspberryJuice] Connection reset
-[17:49:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54767.
-[17:49:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54851.
-[17:49:51] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
-[17:49:51] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
-[17:49:51] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:49:59] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:49:59] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: -colocar_tnt || -detonar_tnt[m
-[17:50:15] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:50:15] [Server thread/INFO]: ExplosiveBot: Acci¢n 'detener' no encontrada.[m
-[17:51:53] [Thread-43/INFO]: [RaspberryJuice] Connection reset
-[17:51:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54851.
-[17:51:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54932.
-[17:51:57] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
-[17:51:57] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
-[17:51:57] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:52:01] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:52:01] [Server thread/INFO]: ExplosiveBot: Dejando de escuchar comandos del chat.[m
-[17:52:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54932.
-[17:52:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54938.
-[17:52:05] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
-[17:52:05] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
-[17:52:05] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:52:14] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:52:14] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: -colocar_tnt || -detonar_tnt[m
-[17:52:31] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:52:31] [Server thread/INFO]: ExplosiveBot: Dejando de escuchar comandos del chat.[m
-[17:52:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54938.
-[17:52:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54956.
-[17:52:35] [Thread-49/INFO]: [RaspberryJuice] Starting input thread
-[17:52:35] [Thread-50/INFO]: [RaspberryJuice] Starting output thread!
-[17:52:35] [Server thread/INFO]: [Bot]: Escribe un comando en el chat para interactuar! Usa 'detener' para detener el bot.[m
-[17:52:41] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
-[17:52:41] [Server thread/INFO]: ExplosiveBot: TNT colocada en (13, 74, 141)![m
-[17:52:48] [Netty Server IO #1/INFO]: <Paldag16> detonar_tnt[m
-[17:52:49] [Server thread/INFO]: ExplosiveBot: TNT activada en (12, 74, 142)![m
-[17:52:53] [Netty Server IO #1/INFO]: <Paldag16> listar_acciones[m
-[17:52:53] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: -colocar_tnt || -detonar_tnt || -detener[m
-[17:53:27] [Netty Server IO #1/INFO]: <Paldag16> detener[m
-[17:53:27] [Server thread/INFO]: ExplosiveBot: Dejando de escuchar comandos del chat.[m
-[17:53:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54956.
-[17:53:32] [Netty Server IO #1/INFO]: <Paldag16> colocar_tnt[m
+[19:23:26] [Server thread/INFO]: Loading properties
+[19:23:26] [Server thread/INFO]: Default game type: CREATIVE
+[19:23:26] [Server thread/INFO]: Generating keypair
+[19:23:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:23:26] [Server thread/INFO]: Using default channel type
+[19:23:27] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[19:23:27] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[19:23:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:23:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:23:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:23:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:23:27] [Server thread/INFO]: Preparing level "world"
+[19:23:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6461835740489444948)
+[19:23:28] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6461835740489444948)
+[19:23:28] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6461835740489444948)
+[19:23:29] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[19:23:29] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[19:23:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:23:29] [Server thread/INFO]: Done (1,919s)! For help, type "help" or "?"
+[19:24:13] [Server thread/INFO]: Paldag16[/127.0.0.1:54460] logged in with entity id 27 at ([world]12.53192223801811, 74.0, 141.28819016571674)
+[19:25:01] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[19:25:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54463.
+[19:25:01] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[19:25:01] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
+[19:25:13] [Netty Server IO #2/INFO]: <Paldag16> hola[m
+[19:25:13] [Server thread/INFO]: OracleBot: ­Hola! ¨En qu‚ puedo ayudarte?[m
+[19:25:30] [Netty Server IO #2/INFO]: <Paldag16> como estas[m
+[19:25:30] [Server thread/INFO]: OracleBot: Hmmm... buena pregunta.[m
+[19:25:58] [Netty Server IO #2/INFO]: <Paldag16> ¿como estas?[m
+[19:25:58] [Server thread/INFO]: OracleBot: ­Intenta preguntar algo m s espec¡fico![m
+[19:26:13] [Netty Server IO #2/INFO]: <Paldag16> ¿cómo estás?[m
+[19:26:13] [Server thread/INFO]: OracleBot: ­Estoy aqu¡ para responder tus preguntas![m
+[19:27:52] [Netty Server IO #2/INFO]: <Paldag16> ¿cual es tu nombre?[m
+[19:27:52] [Server thread/INFO]: OracleBot: No estoy seguro de c¢mo responder eso.[m
+[19:28:31] [Netty Server IO #2/INFO]: <Paldag16> ¿cuál es tu nombre?[m
+[19:28:31] [Server thread/INFO]: OracleBot: Me llamo OracleBot, el OracleBot.[m
+[19:30:48] [Netty Server IO #2/INFO]: <Paldag16> detener[m
+[19:30:49] [Server thread/INFO]: OracleBot: Dejando de escuchar preguntas.[m
+[19:30:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54463.
+[19:30:56] [Netty Server IO #2/INFO]: <Paldag16> hola[m
+[19:31:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54492.
+[19:31:13] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[19:31:13] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[19:31:13] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
+[19:31:36] [Netty Server IO #2/INFO]: <Paldag16> ¿cunato es 2 + 2?[m
+[19:31:36] [Server thread/INFO]: OracleBot: El resultado es 4[m
+[19:32:06] [Netty Server IO #2/INFO]: <Paldag16> detener[m
+[19:32:06] [Server thread/INFO]: OracleBot: Dejando de escuchar preguntas.[m
+[19:32:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54492.
+[19:32:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54504.
+[19:32:34] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[19:32:34] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[19:32:34] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
+[19:32:41] [Netty Server IO #2/INFO]: <Paldag16> chao[m
+[19:32:41] [Server thread/INFO]: OracleBot: ­Hasta luego! Espero haberte ayudado.[m
+[20:41:07] [Server thread/INFO]: Paldag16 lost connection: Disconnected
+[20:41:08] [Server thread/INFO]: Paldag16 left the game
