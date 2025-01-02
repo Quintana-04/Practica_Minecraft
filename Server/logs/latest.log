@@ -1,60 +1,35 @@
-[19:23:26] [Server thread/INFO]: Loading properties
-[19:23:26] [Server thread/INFO]: Default game type: CREATIVE
-[19:23:26] [Server thread/INFO]: Generating keypair
-[19:23:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:23:26] [Server thread/INFO]: Using default channel type
-[19:23:27] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[19:23:27] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[19:23:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:23:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:23:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:23:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:23:27] [Server thread/INFO]: Preparing level "world"
-[19:23:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6461835740489444948)
-[19:23:28] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6461835740489444948)
-[19:23:28] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6461835740489444948)
-[19:23:29] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[19:23:29] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[19:23:29] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[19:23:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:23:29] [Server thread/INFO]: Done (1,919s)! For help, type "help" or "?"
-[19:24:13] [Server thread/INFO]: Paldag16[/127.0.0.1:54460] logged in with entity id 27 at ([world]12.53192223801811, 74.0, 141.28819016571674)
-[19:25:01] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[19:25:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54463.
-[19:25:01] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[19:25:01] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
-[19:25:13] [Netty Server IO #2/INFO]: <Paldag16> hola[m
-[19:25:13] [Server thread/INFO]: OracleBot: ­Hola! ¨En qu‚ puedo ayudarte?[m
-[19:25:30] [Netty Server IO #2/INFO]: <Paldag16> como estas[m
-[19:25:30] [Server thread/INFO]: OracleBot: Hmmm... buena pregunta.[m
-[19:25:58] [Netty Server IO #2/INFO]: <Paldag16> ¿como estas?[m
-[19:25:58] [Server thread/INFO]: OracleBot: ­Intenta preguntar algo m s espec¡fico![m
-[19:26:13] [Netty Server IO #2/INFO]: <Paldag16> ¿cómo estás?[m
-[19:26:13] [Server thread/INFO]: OracleBot: ­Estoy aqu¡ para responder tus preguntas![m
-[19:27:52] [Netty Server IO #2/INFO]: <Paldag16> ¿cual es tu nombre?[m
-[19:27:52] [Server thread/INFO]: OracleBot: No estoy seguro de c¢mo responder eso.[m
-[19:28:31] [Netty Server IO #2/INFO]: <Paldag16> ¿cuál es tu nombre?[m
-[19:28:31] [Server thread/INFO]: OracleBot: Me llamo OracleBot, el OracleBot.[m
-[19:30:48] [Netty Server IO #2/INFO]: <Paldag16> detener[m
-[19:30:49] [Server thread/INFO]: OracleBot: Dejando de escuchar preguntas.[m
-[19:30:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54463.
-[19:30:56] [Netty Server IO #2/INFO]: <Paldag16> hola[m
-[19:31:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54492.
-[19:31:13] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[19:31:13] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[19:31:13] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
-[19:31:36] [Netty Server IO #2/INFO]: <Paldag16> ¿cunato es 2 + 2?[m
-[19:31:36] [Server thread/INFO]: OracleBot: El resultado es 4[m
-[19:32:06] [Netty Server IO #2/INFO]: <Paldag16> detener[m
-[19:32:06] [Server thread/INFO]: OracleBot: Dejando de escuchar preguntas.[m
-[19:32:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54492.
-[19:32:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54504.
-[19:32:34] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[19:32:34] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[19:32:34] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
-[19:32:41] [Netty Server IO #2/INFO]: <Paldag16> chao[m
-[19:32:41] [Server thread/INFO]: OracleBot: ­Hasta luego! Espero haberte ayudado.[m
-[20:41:07] [Server thread/INFO]: Paldag16 lost connection: Disconnected
-[20:41:08] [Server thread/INFO]: Paldag16 left the game
+[15:39:14] [Server thread/INFO]: Loading properties
+[15:39:14] [Server thread/INFO]: Default game type: CREATIVE
+[15:39:14] [Server thread/INFO]: Generating keypair
+[15:39:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:39:14] [Server thread/INFO]: Using default channel type
+[15:39:14] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[15:39:15] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[15:39:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:39:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:39:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:39:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:39:15] [Server thread/INFO]: Preparing level "world"
+[15:39:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6461835740489444948)
+[15:39:16] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6461835740489444948)
+[15:39:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6461835740489444948)
+[15:39:17] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[15:39:17] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[15:39:17] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[15:39:17] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[15:39:17] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[15:39:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:39:17] [Server thread/INFO]: Done (1,969s)! For help, type "help" or "?"
+[15:39:46] [Server thread/INFO]: Paldag16[/127.0.0.1:54520] logged in with entity id 27 at ([world]9.963960072242022, 74.0, 153.28046110283913)
+[15:40:00] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[15:40:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54522.
+[15:40:00] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[15:40:00] [Server thread/INFO]: [Bot]: Escribe una pregunta para OracleBot, o usa 'detener' para detener el bot.[m
+[15:53:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54601.
+[15:53:54] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[15:53:54] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[15:53:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54601.
+[15:53:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54605.
+[15:53:58] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[15:53:58] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[15:53:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54605.
