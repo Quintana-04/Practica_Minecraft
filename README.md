@@ -151,3 +151,5 @@ git clone https://github.com/AdventuresInMinecraft/bitio
 9. Copy the bitio/src/microbit folder to MyAdventures
 
 10. Copy the bitio/bitio.hex file to MyAdventures
+
+[![codecov](https://codecov.io/gh/Quintana-04/Practica_Minecraft/graph/badge.svg?token=MEKHK5U90J)](https://codecov.io/gh/Quintana-04/Practica_Minecraft)
