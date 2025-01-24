@@ -1,6 +1,10 @@
 from bot_framework import BotBase
 import random
 
+from bot_framework import BotBase
+import mcpi.minecraft as minecraft
+import random
+
 class InsultBot(BotBase):
     def __init__(self, mc):
         super().__init__(mc, "InsultBot")
@@ -13,24 +17,29 @@ class InsultBot(BotBase):
         ]
 
     def ejecutar_comando(self, comando, *args):
-        """Ejecuta comandos específicos del bot."""
-        if comando == "random_insult":
-            self.random_insult()
-        elif comando == "custom_insult" and args:
-            self.custom_insult(args[0])
+        if hasattr(self, comando):
+            metodo = getattr(self, comando)
+            if callable(metodo):
+                try:
+                    metodo(*args)
+                except TypeError:
+                    self.mc.postToChat(f"{self.nombre}: Faltan parámetros para el comando '{comando}'.")
+            else:
+                self.mc.postToChat(f"{self.nombre}: '{comando}' no es ejecutable.")
         else:
             self.mc.postToChat(f"{self.nombre}: Comando '{comando}' no reconocido.")
 
     def random_insult(self):
-        """Envía un insulto aleatorio al chat de Minecraft."""
         insult = random.choice(self.insults)
         self.mc.postToChat(f"{self.nombre}: {insult}")
 
-    def custom_insult(self, name):
-        """Envía un insulto personalizado al chat de Minecraft."""
+    def custom_insult(self, name=None):
+        if not name:
+            self.mc.postToChat(f"{self.nombre}: Necesitas especificar un nombre para insultar.")
+            return
         insult = f"{name}, eres un genio... en hacer tonterías."
         self.mc.postToChat(f"{self.nombre}: {insult}")
 
-    def detener(self):
-        """Detiene el bot."""
-        self.mc.postToChat(f"{self.nombre}: Detenido.")
+    def listar_metodos(self):
+        metodos = [name for name in dir(self) if callable(getattr(self, name)) and not name.startswith("_") and name != "ejecutar_comando"]
+        self.mc.postToChat(f"{self.nombre}: Métodos disponibles: {', '.join(metodos)}")

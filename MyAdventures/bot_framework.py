@@ -13,11 +13,6 @@ class BotBase(abc.ABC):
         """Método para ejecutar comandos específicos del bot."""
         pass
 
-    @abc.abstractmethod
-    def detener(self):
-        """Método para detener el bot."""
-        pass
-
 
 class BotManager:
     """Gestor para manejar múltiples bots."""
@@ -57,9 +52,3 @@ class BotManager:
             bot.ejecutar_comando(comando, *args)
         else:
             self.mc.postToChat(f"No se encontró un bot con el nombre {bot_nombre}.")
-
-    def detener_todos(self):
-        """Detener todos los bots registrados."""
-        for bot in self.bots.values():
-            bot.detener()
-        self.mc.postToChat("Todos los bots han sido detenidos.")

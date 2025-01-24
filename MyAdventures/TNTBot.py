@@ -5,14 +5,21 @@ import mcpi.block as block
 class TNTBot(BotBase):
     def __init__(self, mc):
         super().__init__(mc, "TNTBot")
+        self.metodos_restringidos = ["calcular_posicion_frente"]
 
     def ejecutar_comando(self, comando, *args):
-        if comando == "colocar_tnt":
-            self.colocar_tnt()
-        elif comando == "detonar_tnt":
-            self.detonar_tnt()
+        if comando in self.metodos_restringidos:
+            self.mc.postToChat(f"{self.nombre}: No tienes permiso para usar el comando '{comando}'.")
+            return
+
+        if hasattr(self, comando):
+            metodo = getattr(self, comando)
+            if callable(metodo):
+                metodo(*args)
+            else:
+                self.mc.postToChat(f"{self.nombre}: '{comando}' no es ejecutable.")
         else:
-            self.mc.postToChat("Comando no reconocido.")
+            self.mc.postToChat(f"{self.nombre}: Comando '{comando}' no reconocido.")
 
     def calcular_posicion_frente(self, pos, yaw):
         rad = math.radians(yaw)
@@ -35,5 +42,7 @@ class TNTBot(BotBase):
         self.mc.setBlock(x, y + 1, z, block.FIRE.id)
         self.mc.postToChat(f"{self.nombre}: TNT activada en ({x}, {y}, {z})!")
 
-    def detener(self):
-        self.mc.postToChat(f"{self.nombre}: Detenido.")
+    def listar_metodos(self):
+        metodos = [name for name in dir(self) if callable(getattr(self, name)) and not name.startswith("_") and name not in ["ejecutar_comando", "calcular_posicion_frente"]]
+        self.mc.postToChat(f"{self.nombre}: Metodos disponibles: {', '.join(metodos)}")
+
