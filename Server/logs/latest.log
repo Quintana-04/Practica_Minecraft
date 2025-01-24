@@ -242,3 +242,13 @@
 [01:36:28] [Server thread/INFO]: ExplosiveBot: Acciones disponibles: -colocar_tnt || -detonar_tnt || -detener[m
 [01:36:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:33274.
 [01:56:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2882ms behind, skipping 57 tick(s)
+[01:57:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5449ms behind, skipping 108 tick(s)
+[04:57:15] [Server thread/INFO]: Ricardito lost connection: Disconnected
+[04:57:15] [Server thread/INFO]: Ricardito left the game
+[04:57:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8048ms behind, skipping 160 tick(s)
+[11:11:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13549904ms behind, skipping 270998 tick(s)
+[12:04:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1179430ms behind, skipping 23588 tick(s)
+[12:05:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 50331ms behind, skipping 1006 tick(s)
+[13:14:23] [Thread-33/INFO]: [RaspberryJuice] Connection reset
+[13:14:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:32323.
+[13:27:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 30311ms behind, skipping 606 tick(s)
