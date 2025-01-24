@@ -1,6 +1,7 @@
-from bot_framework import BotBase
+from MyAdventures.bot_framework import BotBase
 import math
-import mcpi.block as block
+import MyAdventures.mcpi.block as block
+
 
 class TNTBot(BotBase):
     def __init__(self, mc):
@@ -15,7 +16,10 @@ class TNTBot(BotBase):
         if hasattr(self, comando):
             metodo = getattr(self, comando)
             if callable(metodo):
-                metodo(*args)
+                try:
+                    metodo(*args)
+                except TypeError:
+                    self.mc.postToChat(f"{self.nombre}: Argumentos incorrectos para el comando '{comando}'.")
             else:
                 self.mc.postToChat(f"{self.nombre}: '{comando}' no es ejecutable.")
         else:
@@ -43,6 +47,12 @@ class TNTBot(BotBase):
         self.mc.postToChat(f"{self.nombre}: TNT activada en ({x}, {y}, {z})!")
 
     def listar_metodos(self):
-        metodos = [name for name in dir(self) if callable(getattr(self, name)) and not name.startswith("_") and name not in ["ejecutar_comando", "calcular_posicion_frente"]]
-        self.mc.postToChat(f"{self.nombre}: Metodos disponibles: {', '.join(metodos)}")
+        metodos = [name for name in dir(self)
+                   if callable(getattr(self, name))
+                   and not name.startswith("_")
+                   and name not in self.metodos_restringidos]
+        self.mc.postToChat(f"{self.nombre}: Métodos disponibles: {', '.join(metodos)}")
 
+    def detener(self):
+        self.escuchando = False
+        self.mc.postToChat(f"{self.nombre}: Dejando de escuchar comandos del chat.")

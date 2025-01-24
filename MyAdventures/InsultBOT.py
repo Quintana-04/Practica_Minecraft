@@ -1,7 +1,4 @@
-from bot_framework import BotBase
-import random
-
-from bot_framework import BotBase
+from MyAdventures.bot_framework import BotBase
 import mcpi.minecraft as minecraft
 import random
 

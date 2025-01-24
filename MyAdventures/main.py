@@ -1,5 +1,5 @@
 from bot_framework import BotManager
-from InsultBot import InsultBot
+from InsultBOT import InsultBot
 from OracleBot import OracleBot
 from TNTBot import TNTBot
 import mcpi.minecraft as minecraft
