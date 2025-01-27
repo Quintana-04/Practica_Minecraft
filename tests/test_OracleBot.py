@@ -31,13 +31,6 @@ class TestOracleBot(unittest.TestCase):
         # Verificar el nombre del bot
         self.assertEqual(self.bot.nombre, "OracleBot")
 
-    def test_detener_bot(self):
-        # Probar el método detener
-        with patch.object(self.bot.mc, 'postToChat') as mock_post_to_chat:
-            self.bot.detener()
-            mock_post_to_chat.assert_called_with("OracleBot: Dejando de escuchar preguntas.")
-            self.assertFalse(self.bot.escuchando)
-
     def test_execute_known_command(self):
         # Probar la ejecución de un comando conocido
         with patch.object(self.bot, 'listar_metodos') as mock_listar_metodos:

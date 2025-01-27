@@ -45,8 +45,3 @@ class OracleBot(BotBase):
     def listar_metodos(self):
         metodos = [name for name in dir(self) if callable(getattr(self, name)) and not name.startswith("_") and name != "ejecutar_comando"]
         self.mc.postToChat(f"{self.nombre}: Metodos disponibles: {', '.join(metodos)}")
-
-    def detener(self):
-        """Detiene al bot, desactivando su capacidad de responder preguntas."""
-        self.escuchando = False
-        self.mc.postToChat(f"{self.nombre}: Dejando de escuchar preguntas.")
