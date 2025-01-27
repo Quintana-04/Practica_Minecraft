@@ -41,9 +41,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-01-26 18:57:18 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_lapis": "2025-01-06 01:33:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-01-26 19:50:14 +0100"
     },
     "done": true
   },
@@ -113,11 +125,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-01-26 18:58:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2025-01-06 01:16:27 +0100",
       "swampland": "2025-01-24 13:48:38 +0100",
       "deep_ocean": "2024-12-24 17:29:29 +0100",
+      "extreme_hills_with_trees": "2025-01-26 18:55:37 +0100",
       "forest_hills": "2025-01-06 01:16:28 +0100",
       "plains": "2024-12-24 16:20:24 +0100",
       "savanna": "2024-12-24 17:30:17 +0100",
@@ -128,6 +147,12 @@
       "river": "2024-12-24 17:30:10 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-01-26 19:50:14 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
@@ -147,6 +172,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-01-26 18:57:00 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2025-01-06 01:17:52 +0100"
@@ -159,9 +190,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-01-26 19:50:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-01-26 19:50:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2025-01-06 01:17:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2025-01-26 20:04:03 +0100"
     },
     "done": true
   },
@@ -198,6 +247,12 @@
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_lapis": "2025-01-06 01:33:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-01-26 19:49:40 +0100"
     },
     "done": true
   },

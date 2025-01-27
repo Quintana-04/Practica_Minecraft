@@ -1,5 +1,20 @@
 import inspect
-from MyAdventures.bot_framework import BotBase
+
+import sys
+import os
+
+if __name__ == "__main__":
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+    
+try:
+    # Para cuando se ejecuta desde la raíz del proyecto
+    from MyAdventures.bot_framework import BotBase
+except ModuleNotFoundError:
+    # Para cuando se ejecuta desde dentro de MyAdventures
+    from bot_framework import BotBase
+
+
+
 class OracleBot(BotBase):
     def __init__(self, mc):
         super().__init__(mc, "OracleBot")

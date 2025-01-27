@@ -1,16 +1,25 @@
-from MyAdventures.bot_framework import BotBase
 import mcpi.minecraft as minecraft
 import random
+
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from MyAdventures.bot_framework import BotBase
+
+
+
 
 class InsultBot(BotBase):
     def __init__(self, mc):
         super().__init__(mc, "InsultBot")
         self.insults = [
-            "Eres más inútil que un pico de madera en el Nether.",
+            "Eres mas inutil que un pico de madera en el Nether.",
             "Tu casa parece un cubo de tierra... oh espera, lo es.",
-            "Tu skin debería estar prohibida por mal gusto.",
+            "Tu skin deberia estar prohibida por mal gusto.",
             "Construyes peor que un Creeper enfadado.",
-            "Tu sentido de orientación es tan malo que te pierdes en el Overworld."
+            "Tu sentido de orientacion es tan malo que te pierdes en el Overworld."
         ]
 
     def ejecutar_comando(self, comando, *args):

@@ -1,1 +1,79 @@
-[00:35:18] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 29942359ms behind, skipping 598847 tick(s)
+[11:57:14] [Server thread/INFO]: Starting minecraft server version 1.12
+[11:57:14] [Server thread/INFO]: Loading properties
+[11:57:14] [Server thread/INFO]: Default game type: CREATIVE
+[11:57:14] [Server thread/INFO]: Generating keypair
+[11:57:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:57:50] [Server thread/INFO]: Ricardito[/127.0.0.1:59084] logged in with entity id 469 at ([world]23.98670939506148, 75.0, 150.3419139944016)
+[11:58:44] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54775.
+[11:58:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59139.
+[11:58:47] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[11:58:47] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[11:58:47] [Server thread/INFO]: Bot insult registrado correctamente.[m
+[11:58:47] [Server thread/INFO]: Bot oracle registrado correctamente.[m
+[11:58:47] [Server thread/INFO]: Bot tnt registrado correctamente.[m
+[11:58:47] [Server thread/INFO]: Bots registrados. Usa el comando '<bot> <comando> [args...]' para interactuar.[m
+[12:00:00] [Netty Server IO #4/INFO]: <Ricardito> tnt listar_metodos[m
+[12:00:00] [Server thread/INFO]: TNTBot: M‚todos disponibles: colocar_tnt, detener, detonar_tnt, ejecutar_comando, listar_metodos[m
+[12:01:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59139.
+[12:01:16] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[12:01:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59578.
+[12:01:16] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[12:01:16] [Server thread/INFO]: Bot insult registrado correctamente.[m
+[12:01:16] [Server thread/INFO]: Bot oracle registrado correctamente.[m
+[12:01:16] [Server thread/INFO]: Bot tnt registrado correctamente.[m
+[12:01:16] [Server thread/INFO]: Bots registrados. Usa el comando '<bot> <comando> [args...]' para interactuar.[m
+[12:01:22] [Netty Server IO #4/INFO]: <Ricardito> tnt listar_metodos[m
+[12:01:22] [Server thread/INFO]: TNTBot: Metodos disponibles: calcular_posicion_frente, colocar_tnt, detener, detonar_tnt, listar_metodos[m
+[12:01:37] [Netty Server IO #4/INFO]: <Ricardito> tnt listar_metodos[m
+[12:01:37] [Server thread/INFO]: TNTBot: Metodos disponibles: calcular_posicion_frente, colocar_tnt, detener, detonar_tnt, listar_metodos[m
+[12:02:56] [Netty Server IO #4/INFO]: <Ricardito> tnt calcular_posicion_frente[m
+[12:02:56] [Server thread/INFO]: TNTBot: No tienes permiso para usar el comando 'calcular_posicion_frente'.[m
+[12:33:25] [Netty Server IO #4/INFO]: <Ricardito> tnt calcular_posicion_frente[m
+[12:33:25] [Server thread/INFO]: TNTBot: No tienes permiso para usar el comando 'calcular_posicion_frente'.[m
+[12:35:02] [Netty Server IO #4/INFO]: <Ricardito> tnt colocar_metodo[m
+[12:35:02] [Server thread/INFO]: TNTBot: Comando 'colocar_metodo' no reconocido.[m
+[12:35:09] [Netty Server IO #4/INFO]: <Ricardito> tnt colocar_tnt[m
+[12:35:09] [Server thread/INFO]: TNTBot: TNT colocada en (24, 75, 150)![m
+[12:36:50] [Netty Server IO #4/INFO]: <Ricardito> tnt ejecutar_comando[m
+[12:36:51] [Server thread/INFO]: TNTBot: Argumentos incorrectos para el comando 'ejecutar_comando'.[m
+[12:37:16] [Netty Server IO #4/INFO]: <Ricardito> insult custom:insult[m
+[12:37:16] [Server thread/INFO]: InsultBot: Comando 'custom:insult' no reconocido.[m
+[12:37:23] [Netty Server IO #4/INFO]: <Ricardito> insult custom_insult[m
+[12:37:23] [Server thread/INFO]: InsultBot: Necesitas especificar un nombre para insultar.[m
+[12:37:44] [Netty Server IO #4/INFO]: <Ricardito> insult custom_insult[m
+[12:37:44] [Server thread/INFO]: InsultBot: Necesitas especificar un nombre para insultar.[m
+[12:38:57] [Netty Server IO #4/INFO]: <Ricardito> tnt explotar[m
+[12:38:57] [Server thread/INFO]: TNTBot: Comando 'explotar' no reconocido.[m
+[12:39:34] [Netty Server IO #4/INFO]: <Ricardito> tnt colocar_tnt[m
+[12:39:34] [Server thread/INFO]: TNTBot: TNT colocada en (24, 75, 150)![m
+[12:39:43] [Netty Server IO #4/INFO]: <Ricardito> tnt listar_metodos[m
+[12:39:43] [Server thread/INFO]: TNTBot: Metodos disponibles: calcular_posicion_frente, colocar_tnt, detener, detonar_tnt, listar_metodos[m
+[12:39:54] [Netty Server IO #4/INFO]: <Ricardito> tnt detonar_tnt[m
+[12:39:54] [Server thread/INFO]: TNTBot: TNT activada en (24, 75, 150)![m
+[13:58:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1681768ms behind, skipping 33635 tick(s)
+[13:58:22] [Server thread/INFO]: Ricardito lost connection: Timed out
+[13:58:22] [Server thread/INFO]: Ricardito left the game
+[14:01:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 173861ms behind, skipping 3477 tick(s)
+[15:59:35] [Server thread/INFO]: Ricardito[/127.0.0.1:13180] logged in with entity id 506 at ([world]22.27976667339634, 74.0, 150.55714332569298)
+[15:59:56] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59578.
+[15:59:58] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:13270.
+[15:59:58] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[15:59:58] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[15:59:58] [Server thread/INFO]: Bot insult registrado correctamente.[m
+[15:59:58] [Server thread/INFO]: Bot oracle registrado correctamente.[m
+[15:59:58] [Server thread/INFO]: Bot tnt registrado correctamente.[m
+[15:59:58] [Server thread/INFO]: Bots registrados. Usa el comando '<bot> <comando> [args...]' para interactuar.[m
+[16:00:08] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:09] [Server thread/INFO]: TNTBot: TNT colocada en (11, 74, 143)![m
+[16:00:15] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:15] [Server thread/INFO]: TNTBot: TNT colocada en (9, 73, 142)![m
+[16:00:18] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:18] [Server thread/INFO]: TNTBot: TNT colocada en (10, 73, 143)![m
+[16:00:21] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:21] [Server thread/INFO]: TNTBot: TNT colocada en (9, 73, 144)![m
+[16:00:23] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:23] [Server thread/INFO]: TNTBot: TNT colocada en (8, 73, 143)![m
+[16:00:36] [Netty Server IO #6/INFO]: <Ricardito> tnt colocar_tnt[m
+[16:00:36] [Server thread/INFO]: TNTBot: TNT colocada en (9, 74, 144)![m
+[16:03:09] [Netty Server IO #6/INFO]: <Ricardito> tnt detonar_tnt[m
+[16:03:10] [Server thread/INFO]: TNTBot: TNT activada en (6, 73, 150)![m

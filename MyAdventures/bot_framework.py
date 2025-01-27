@@ -1,6 +1,12 @@
 import mcpi.minecraft as minecraft
 import abc
 
+import sys
+import os
+
+# Agrega la ruta raíz al sys.path
+
+
 class BotBase(abc.ABC):
     """Interfaz base para todos los bots."""
 

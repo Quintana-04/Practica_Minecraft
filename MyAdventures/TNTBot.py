@@ -1,6 +1,13 @@
-from MyAdventures.bot_framework import BotBase
 import math
-import MyAdventures.mcpi.block as block
+import mcpi.block as block
+
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from MyAdventures.bot_framework import BotBase
+
 
 
 class TNTBot(BotBase):
@@ -47,11 +54,8 @@ class TNTBot(BotBase):
         self.mc.postToChat(f"{self.nombre}: TNT activada en ({x}, {y}, {z})!")
 
     def listar_metodos(self):
-        metodos = [name for name in dir(self)
-                   if callable(getattr(self, name))
-                   and not name.startswith("_")
-                   and name not in self.metodos_restringidos]
-        self.mc.postToChat(f"{self.nombre}: Métodos disponibles: {', '.join(metodos)}")
+        metodos = [name for name in dir(self) if callable(getattr(self, name)) and not name.startswith("_") and name != "ejecutar_comando"]
+        self.mc.postToChat(f"{self.nombre}: Metodos disponibles: {', '.join(metodos)}")
 
     def detener(self):
         self.escuchando = False
