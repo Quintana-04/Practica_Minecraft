@@ -8,7 +8,7 @@ if __name__ == "__main__":
     
 try:
     # Para cuando se ejecuta desde la raíz del proyecto
-    from MyAdventures.bot_framework import BotBase
+    from MyAdventures.bots.bot_framework import BotBase
 except ModuleNotFoundError:
     # Para cuando se ejecuta desde dentro de MyAdventures
     from bot_framework import BotBase
