@@ -7,7 +7,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Importar OracleBot
-from MyAdventures.OracleBot import OracleBot
+from MyAdventures.bots.OracleBot import OracleBot
 
 
 class TestOracleBot(unittest.TestCase):

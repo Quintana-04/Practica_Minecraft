@@ -7,7 +7,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Importar InsultBot
-from MyAdventures.InsultBOT import InsultBot
+from MyAdventures.bots.InsultBOT import InsultBot
 
 
 class TestInsultBot(unittest.TestCase):

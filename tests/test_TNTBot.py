@@ -7,7 +7,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Importar TNTBot
-from MyAdventures.TNTBot import TNTBot
+from MyAdventures.bots.TNTBot import TNTBot
 import MyAdventures.mcpi.block as block
 
 class TestTNTBot(unittest.TestCase):
